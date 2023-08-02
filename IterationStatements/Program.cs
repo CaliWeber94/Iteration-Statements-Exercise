@@ -93,7 +93,8 @@ namespace IterationStatements
         {
              for(int i = 1; i <= 12; i++)
             {
-                Console.WriteLine($"{num}*{i}");   
+                Console.WriteLine($"{num}*{i} = {num * i}");  
+                
             }
                 
         }
@@ -110,7 +111,8 @@ namespace IterationStatements
             IsItInRange(9);
             MultiplyThru12(12);
 
-
+    
+                
 
                        
             
